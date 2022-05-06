@@ -1,3 +1,5 @@
+import toast from 'react-hot-toast';
+
 export const ON_CLICK_DEFAULT = () => {
-  console.warn("This feature is not implemented yet!")
+  toast.error("This feature is not implemented yet!")
 }
